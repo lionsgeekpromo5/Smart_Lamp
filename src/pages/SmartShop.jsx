@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import ToggleSwitchersSection from "../components/ToggleSwitchersSection";
 import Gallery from "../components/Gallery";
 import { LampContext } from "../context";
+import ContactUs from "../components/ContactUs";
 
 function SmartShop() {
   const { darkMode } = useContext(LampContext);
@@ -14,6 +15,7 @@ function SmartShop() {
         <Header />
         <ToggleSwitchersSection />
         <Gallery />
+        <ContactUs />
       </div>
     </div>
   );
